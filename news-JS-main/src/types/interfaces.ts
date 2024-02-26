@@ -12,9 +12,13 @@ export interface IItemsData {
 }
 
 export interface ISource {
-  sources: string;
-  id: string;
-  name: string;
+    id: string;
+    name: string;
+    description: string;
+    url: string;
+    category: string;
+    language: string;
+    country: string;
 }
 
 export interface Option {
